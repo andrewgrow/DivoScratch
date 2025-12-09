@@ -50,7 +50,7 @@ To build and run the development version of the server, use the run configuratio
 in your IDE’s toolbar or run it directly from the terminal:
 - on macOS/Linux
   ```shell
-  ./gradlew :server:run
+  ./gradlew :server:runWithEnv # old running without dotenv - :server:run
   ```
 - on Windows
   ```shell
