@@ -10,6 +10,9 @@ version = "1.0.0"
 dependencies {
     implementation(projects.shared)
     implementation(libs.logback)
+    implementation(libs.ktor.serverCallLogging)
+    implementation(libs.ktor.serverDoubleReceive)
+    implementation(libs.ktor.serverCallId)
     implementation(libs.ktor.serverCore)
     implementation(libs.ktor.serverNetty)
     testImplementation(libs.ktor.serverTestHost)
