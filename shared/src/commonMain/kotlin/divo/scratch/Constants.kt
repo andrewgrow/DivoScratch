@@ -1,3 +1,5 @@
 package divo.scratch
 
-const val SERVER_PORT = 8080 // non actual now, was moved to application.config
+object SERVER {
+    const val REQUEST_ID_DICTIONARY = "abcdefghijklmnopqrstuvwxyz0123456789"
+}
